@@ -30,12 +30,12 @@ void Door::opendoor() {
     }
 }
 
-// Function to close the door
+
 void Door::closedoor() {
     isopen = false;
     cout << "Door is now closed." << endl;
 }
-// Function to lock the door
+
 void Door::lockdoor() {
     islocked = true;
     cout << "Door is now locked." << endl;
