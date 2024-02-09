@@ -17,10 +17,10 @@ public:
     bool isdoorlocked() const;
 };
 
-// Default constructor
+
 Door::Door() : isopen(false), islocked(false) {}
 
-// Function to open the door
+
 void Door::opendoor() {
     if (!islocked) {
         isopen = true;
